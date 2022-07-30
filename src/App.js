@@ -88,9 +88,11 @@ const App = () => {
 					handleDeleteNote={deleteNote}
 				/>
 			</div>
-			<footer>
-				<a className='source-code' style={{color: isDarkMode?'rgb(233, 233, 233)':'#28282B'}} href="https://github.com/dylananderton/Notes" target="_blank" >See the source code</a>
-			</footer>
+				<footer>
+					<a className='source-code' style={{color: isDarkMode?'rgb(233, 233, 233)':'#28282B'}} href="https://github.com/dylananderton/Notes" target="_blank" >
+						See the source code
+					</a>
+				</footer>
 		</div>
 	);
 };
